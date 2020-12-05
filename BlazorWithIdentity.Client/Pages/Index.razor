@@ -1,6 +1,6 @@
 ﻿@page "/"
 @attribute [Authorize]
-
+<MainContainer>
 <AuthorizeView>
     <Authorized>
         <h1>Hello @context.User.Identity.Name !!</h1>
@@ -13,3 +13,4 @@
         <h1>Loading ...</h1>
     </Authorizing>
 </AuthorizeView>
+</MainContainer>
