@@ -2,7 +2,7 @@
 @attribute [Authorize]
 @using BlazorWithIdentity.Shared
 @inject HttpClient Http
-
+<MainContainer>
 <h1>Weather forecast</h1>
 
 <p>This component demonstrates fetching data from the server.</p>
@@ -35,6 +35,7 @@ else
         </tbody>
     </table>
 }
+    </MainContainer>
 
 @functions {
     WeatherForecast[] forecasts;
