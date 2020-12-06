@@ -2,95 +2,97 @@
 @attribute [Authorize]
 @inject IJSRuntime JsRuntime
 
-<AuthorizeView>
-    <Authorized>
-        <h1>This is the carousel from WorkLab</h1>
+<MainContainer>
+    <AuthorizeView>
+        <Authorized>
+            <h1>This is the carousel from WorkLab</h1>
 
-        <div class="carousel-gallery">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
-                            <div class="image" style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
-                                <div class="overlay">
-                                    <em class="mdi mdi-magnify-plus"></em>
+            <div class="carousel-gallery">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
                                 </div>
+                            </a>
+                            <div class="carousel-caption">
+                                Экономистом
                             </div>
-                        </a>
-                        <div class="carousel-caption">
-                            Экономистом
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://images.pexels.com/photos/248280/pexels-photo-248280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(https://images.pexels.com/photos/248280/pexels-photo-248280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="carousel-caption">
+                                Юристом
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://images.pexels.com/photos/89095/pexels-photo-89095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(https://images.pexels.com/photos/89095/pexels-photo-89095.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="carousel-caption">
+                                Медиком
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://images.pexels.com/photos/669319/pexels-photo-669319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(https://images.pexels.com/photos/669319/pexels-photo-669319.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="carousel-caption">
+                                Дипломатом
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://images.pexels.com/photos/277477/pexels-photo-277477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(https://images.pexels.com/photos/277477/pexels-photo-277477.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="carousel-caption">
+                                Экологом
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://images.pexels.com/photos/928276/pexels-photo-928276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
+                                <div class="image" style="background-image: url(https://images.pexels.com/photos/928276/pexels-photo-928276.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                                    <div class="overlay">
+                                        <em class="mdi mdi-magnify-plus"></em>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="carousel-caption">
+                                Программистом
+                            </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <a href="https://images.pexels.com/photos/248280/pexels-photo-248280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
-                            <div class="image" style="background-image: url(https://images.pexels.com/photos/248280/pexels-photo-248280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
-                                <div class="overlay">
-                                    <em class="mdi mdi-magnify-plus"></em>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="carousel-caption">
-                            Юристом
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://images.pexels.com/photos/89095/pexels-photo-89095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
-                            <div class="image" style="background-image: url(https://images.pexels.com/photos/89095/pexels-photo-89095.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
-                                <div class="overlay">
-                                    <em class="mdi mdi-magnify-plus"></em>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="carousel-caption">
-                            Медиком
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://images.pexels.com/photos/669319/pexels-photo-669319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
-                            <div class="image" style="background-image: url(https://images.pexels.com/photos/669319/pexels-photo-669319.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
-                                <div class="overlay">
-                                    <em class="mdi mdi-magnify-plus"></em>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="carousel-caption">
-                            Дипломатом
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://images.pexels.com/photos/277477/pexels-photo-277477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
-                            <div class="image" style="background-image: url(https://images.pexels.com/photos/277477/pexels-photo-277477.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
-                                <div class="overlay">
-                                    <em class="mdi mdi-magnify-plus"></em>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="carousel-caption">
-                            Экологом
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://images.pexels.com/photos/928276/pexels-photo-928276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery">
-                            <div class="image" style="background-image: url(https://images.pexels.com/photos/928276/pexels-photo-928276.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
-                                <div class="overlay">
-                                    <em class="mdi mdi-magnify-plus"></em>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="carousel-caption">
-                            Программистом
-                        </div>
-                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-pagination"></div>
                 </div>
-                <!-- Add Arrows -->
-                <div class="swiper-pagination"></div>
             </div>
-        </div>
-    </Authorized>
-    <Authorizing>
-        <h1>Loading ...</h1>
-    </Authorizing>
-</AuthorizeView>
+        </Authorized>
+        <Authorizing>
+            <h1>Loading ...</h1>
+        </Authorizing>
+    </AuthorizeView>
+</MainContainer>
 
 @code
 {
@@ -100,3 +102,6 @@
         await JsRuntime.InvokeAsync<object>("initializeCarousel");
     }
 }
+
+
+
